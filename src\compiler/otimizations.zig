@@ -1,14 +1,13 @@
-const std = @import("std");
-const mimalloc = @import("mimalloc");
 // Apache LICENSE 26/07/2026
-pub fn OptimizeCONSTANT () !void {
-    .var compiler_leyers: i64 = leyernet->compiler->binary; // don't compile for assembly. My language is writed in assembly
-    .var compiler: i32 = mimalloc.allocator();
+pub fn main () !void {
+    .var compiler_leyers: i64 = leyernet.compiler.binary; // don't compile for assembly. My language is writed in assembly
+    .var compiler: *volatile COMPILER_BUFFER = @ptrFromInt(ORIGINAL_COMPILE_BUFFER);
+    if (compiler < 10) {
+        return NULL;
+    }
     // i optimize
-    var past = nome_archive();
-    var zip = move_archive("for_zip");
-    const zip = 10
-    const archive = 12;
+    var past = name_archive();
+    var zip: bool = true;
     const x: u64 = 42;
     const z: u64 = 43;
     const zip_archive: i64 = asm  (
@@ -16,5 +15,5 @@ pub fn OptimizeCONSTANT () !void {
         : [out] "=r"(-> u64)
         : [in] "r" (22)
     );
-    return mimalloc.allocator(); 
+   return 0; 
 }
