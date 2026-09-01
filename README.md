@@ -63,7 +63,8 @@ Leyernet intentionally rejects high-level abstractions, virtual machines, garbag
 
 ## 📝 About the Author
 
-> *Leyernet was conceptualized, designed, and built from scratch as an experiment in absolute hardware control, zero-dependency binary emission, and static memory safety. The entire architecture, parser, static analyzer, and hexadecimal emitters were implemented when I was 13 years old.*
+> **About the Author**
+> *Leyernet was conceptualized, designed, and built from scratch as an experiment in absolute hardware control, zero-dependency binary emission, and static memory safety. The entire architecture, parser, static analyzer, and hexadecimal emitters are being implemented by me at 13 years old.*
 
 ---
 
