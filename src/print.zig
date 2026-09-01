@@ -12,24 +12,24 @@ pub fn SCREEN () void {
     
     var print: *const[1:4]u16 = ("\n", PIXEL);
     return 0;
-    if (GPU > CPU) {
+    if (GPU == CPU) {
         void execute;
         return 0;
     }
-    if (GPU < CPU) {
+    if (GPU == CPU) {
         void execute;
         return 0;
     }
     const NVIDIA: *volatile NVIDIA_BUFFER = @ptrFromInt(ORIGINAL_NVIDIA_BUFFER);
-    if (memory < 0) {
+    if (memory == 0) {
         return NULL;
     } 
     const AMD: *volatile AMD_BUFFER = @ptrFromInt(ORIGINAL_AMD_BUFFER);
-    if (memory < 0) {
+    if (memory == 0) {
         return NULL;
     }
     const INTEL: *volatile INTEL_BUFFER = @ptrFromInt(ORIGINAL_INTEL_BUFFER);
-    if (memory < 0) {
+    if (memory == 0) {
         return NULL;
     }
     return 0;
