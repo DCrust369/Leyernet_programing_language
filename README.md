@@ -1,143 +1,72 @@
-# Leyernet progrming language
+# Leyernet Programming Language
 
-----
-this is a new programing language for low level
-----
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+**Author:** Crust  
+**Initial Release:** June 25, 2026  
 
-developed in **25/06/2026**
+Leyernet is a modern, zero-bloat, high-performance systems programming language built for absolute hardware control, direct machine code generation, and low-level development.
 
-# this is your abstractions
-----
-**GUI** | the graphical user interface
-----
-**python** | your language for exemple. it's a super abstractions
-----
-**bash** | or shell or TTY or PTY or terminal or konsole or terminal emulator** screen whith commands for automation
-----
-**operational system** | apps, code editors, store for exemple: fedora, debian, ubuntu, centOS, arch, freeBSD, netBSD
-----
-**kernel** | this parth it's a kernel linux, NT(microsoft), XNU this parth have rust, c and assembly and this
-parth have my programing language
-----
-**BIOS and UEFI** | dell, acer, purism have this for bootloader and this parth is assembly and c or my language
-----
-**Hardware** | mause, keyboard, screen, your computer, my computer, your phone, my phone
-----
+---
 
-# The stack of the programing languages
+## 🎯 Purpose & Use Cases
 
----------------------------------------------------------------------------------------------------
-language               |      why this?                                                            |
----------------------------------------------------------------------------------------------------
-Assembly               |   for CPU and motherboard manegement                                      |
----------------------------------------------------------------------------------------------------
-Rust                   |   CyberSecurity                                                           |
----------------------------------------------------------------------------------------------------
-Zig                    |  unstable in 0.16.0 for 0.17.0 version. For CPU managemnt and GPU control |
----------------------------------------------------------------------------------------------------
-C  (C language)        |   maipule memory + rust                                                   |
----------------------------------------------------------------------------------------------------
-Odin                   |   easy low level                                                          |
----------------------------------------------------------------------------------------------------
-Forth                  |   Organization codes                                                      |
----------------------------------------------------------------------------------------------------
-Verilog                |   For arm and FPGA and o hate this sinxtase                               |
----------------------------------------------------------------------------------------------------
+* **Bare-Metal & Systems Development:** Direct operation on CPUs and memory without runtime bloat or LLVM overhead.
+* **Cybersecurity & Ethical Hacking:** Precise memory manipulation, predictable static behavior, and total binary transparency.
+* **Modern Low-Level Engineering:** A bridge for both veteran system engineers and beginners learning bare-metal concepts.
+* **Zero-Abstraction Execution:** Predictable performance where every instruction maps directly to hardware logic.
 
-# What is the usefulness
+---
 
-**low level dev**
+## 🏗️ System Abstraction Layers
 
-**CPU not abstractions**
+Leyernet operates at the lowest software layers of the computing stack:
 
-**CyberSecurity**
+| Layer | Components / Technology | Leyernet Presence |
+| :--- | :--- | :--- |
+| **GUI** | Graphical User Interfaces | High Abstraction |
+| **High-Level Scripts** | Python, Managed Runtimes | High Abstraction |
+| **Shell / TTY / PTY** | Bash, Terminal Emulators, Automation | User Interface Layer |
+| **Operating System** | Fedora, Debian, Arch, FreeBSD, NetBSD | Systems Layer |
+| **Kernel** | Linux, Windows NT, XNU (C, Rust, Assembly) | **Core Leyernet Target** |
+| **BIOS / UEFI** | Bootloaders, Firmware (Dell, Acer, Purism) | **Core Leyernet Target** |
+| **Hardware** | Processors, Memory, FPGAs, Peripherals | **Direct Silicon Interfacing** |
 
-**Etical Hacker** (It depends on the person who programs)
+---
 
-**begginers and advances in low level**
+## 🛠️ The Implementation & Tooling Stack
 
-**modern low level**
+| Language / Tool | Purpose in Leyernet Ecosystem |
+| :--- | :--- |
+| **Assembly (x86_64 / ARM)** | Direct CPU, register, and motherboard management |
+| **Rust** | Memory safety and security enforcement patterns |
+| **Zig** | Unstable ecosystem tracking (0.16.0 → 0.17.0), CPU & GPU control |
+| **C** | Raw memory manipulation and system calls |
+| **Odin** | Clean, readable low-level control |
+| **Forth** | Minimalist code organization and stack manipulation |
+| **Verilog** | Hardware design for ARM, FPGA, and custom opcode generation |
 
-**old devs and new devs**
-Leyernet Design Guidelines
-and i ban this languages
+---
 
-JavaScript
-- Compatibility layer only.
-- Not intended for general Leyernet development.
+## 🚫 Anti-Goals & Ban List
 
-CSS
-- Compatibility layer only.
-- Not intended for general Leyernet development.
+Leyernet intentionally rejects high-level abstractions, virtual machines, garbage collectors, and language complexity:
 
-Python
-- Not a design inspiration.
-- Prefer native compilation and static typing.
+* **C++:** Rejected to avoid unnecessary language complexity, `vtables`, and hidden runtimes.
+* **JavaScript / TypeScript / HTML / CSS:** Restricted strictly to compatibility layers; not for Leyernet development.
+* **Python / Ruby / PHP / Lua:** Banned from design inspiration; Leyernet strictly enforces native static compilation.
+* **Erlang / Elixir / Clojure / Java:** Virtual machines (JVM, BEAM) and managed runtimes are completely avoided.
+* **Haskell:** Functional programming is not a primary design goal.
+* **Machine Learning / AI Frameworks:** Out of scope for the language core.
+* **C# / Swift / Dart / Go / Delphi / Kotlin / Objective-C:** No influence planned.
 
-HTML
-- Compatibility layer only.
+---
 
-TypeScript
-- JavaScript compatibility is sufficient.
+## 📝 About the Author
 
-Java
-- Not a design inspiration.
+> *Leyernet was conceptualized, designed, and built from scratch as an experiment in absolute hardware control, zero-dependency binary emission, and static memory safety. The entire architecture, parser, static analyzer, and hexadecimal emitters were implemented when I was 13 years old.*
 
-Mojo
-- No influence planned.
+---
 
-COBOL
-- No influence planned.
+## 📄 License
 
-Machine Learning
-- Not a core goal of the language.
-
-C#
-- No influence planned.
-
-C++
-- Avoid unnecessary language complexity.
-
-Delphi
-- No influence planned.
-
-Scala / Kotlin
-- No influence planned.
-
-Pawn
-- No influence planned.
-
-Ruby
-- Avoid highly dynamic language features.
-
-PHP
-- Web-specific features are not a core goal.
-
-Swift
-- No influence planned.
-
-Dart
-- No influence planned.
-
-Lua
-- Not a design inspiration.
-
-Erlang / Elixir
-- Avoid dependence on a virtual machine.
-
-Haskell
-- Functional programming is not a primary goal.
-
-Clojure
-- Avoid dependence on the JVM.
-
-Objective-C
-- No influence planned.
-
-MATLAB
-- No influence planned.
-
-# LICENSE
-
-**the LICENSE it's a APACHE**
-**DCrust** it's a creator
+This project is open-source software licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for full details.
