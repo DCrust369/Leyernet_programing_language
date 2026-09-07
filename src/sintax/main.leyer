@@ -16,7 +16,7 @@ fn ModuleOne () void {
         mov rax, 1, 2
         mov eax, 1, 2
     }
-    break
+    break;
 }
 
 fn: ( System == Description) {
