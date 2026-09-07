@@ -1,0 +1,49 @@
+fn ModuleOne () void {
+    class Computer {
+        pub (
+            val CPU: i8 = intel; \ the intel CPU
+            val GPU: i16 = DDR4;
+            val HD: i16 = 400GB;
+        );
+        pri (
+            val SSD = medium; /* is not true or false is a undefined or so so */
+            val DDR2: bool = false;
+            val DDR4: bool = true;
+            val DDR5: bool false;
+        );
+    };
+    asm {
+        mov rax, 1, 2
+        mov eax, 1, 2
+    }
+    break
+}
+
+fn: ( System == Description) {
+    class Linux {
+        pub (
+            val Ubuntu;
+        );
+        pri ( 
+            val QubesOS;
+        );
+    }
+
+    mover Qubes = asm("rax"); 
+    mover Ubuntu = asm("eax");
+    /*
+    this is a comment
+    */
+
+    \ this is a comment
+
+    // this is a comment
+
+    \\ this is a comment
+
+    / this is a comment
+}
+
+fn main () {
+    print("Hello World");
+}
