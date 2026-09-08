@@ -9,7 +9,7 @@ fn ModuleOne () void {
             val SSD = medium; /* is not true or false is a undefined or so so */
             val DDR2: bool = false;
             val DDR4: bool = true;
-            val DDR5: bool false;
+            val DDR5: bool = false;
         );
     };
     asm {
