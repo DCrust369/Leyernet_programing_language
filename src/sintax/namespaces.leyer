@@ -1,0 +1,21 @@
+fn: ( define --- world ) { /* my language is a stack based in forth */
+    stack::func(the_world = earth); /* namespaces */
+
+    class Phone {
+        pub (
+            stack::func(Phone = IOS); /* namespaces on class */
+            err: bool = false;
+        );
+        pub (
+            stack::func(Phone = Android);
+            err: bool = true;
+        );
+        pri (
+            stack::func(Phone = lineageOS);
+            LineageOS: bool = true;
+        );
+    }
+    asm {
+        mov eax, 1, 2
+    };
+}
