@@ -39,7 +39,6 @@ _start:
     mov si, render
     mov di, anonymous
 
-    ; equivalente conceitual ao:
     ; mov ax, 100, 90, 80, 70, 60
 
     mov ax, [bx]        ; ax = 100
