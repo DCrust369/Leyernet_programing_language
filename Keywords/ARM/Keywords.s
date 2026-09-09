@@ -94,6 +94,6 @@
 .type _start, %function
 
 _start:
-    mov x0, #0          // status = 0
-    mov x8, #93         // __NR_exit
-    svc #0              // executa a syscall
+    mov x0, #0
+    mov x8, #93
+    svc #0              
