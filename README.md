@@ -1,7 +1,7 @@
 # Leyernet Programming Language
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-**Author:** Crust  
+**Author:** DCrust  
 **Initial Release:** June 25, 2026  
 
 Leyernet is a modern, zero-bloat, high-performance systems programming language built for absolute hardware control, direct machine code generation, and low-level development.
