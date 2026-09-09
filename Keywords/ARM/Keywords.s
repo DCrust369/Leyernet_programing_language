@@ -94,9 +94,6 @@
 .type _start, %function
 
 _start:
-    // Linux ARM64:
-    // x0 = código de saída
-    // x8 = número da syscall
     mov x0, #0          // status = 0
     mov x8, #93         // __NR_exit
     svc #0              // executa a syscall
