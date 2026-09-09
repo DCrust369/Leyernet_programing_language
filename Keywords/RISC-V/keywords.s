@@ -93,7 +93,6 @@
 .global _start
 
 _start:
-    # Linux RISC-V (16-bit compressed instructions)
-    c.li a0, 0          # status de saída: 0 (instrução de 16 bits)
-    c.li a7, 93         # syscall: exit (93 no Linux RISC-V, instrução de 16 bits)
-    ecall               # executa a syscall
+    c.li a0, 0          
+    c.li a7, 93         
+    ecall               
