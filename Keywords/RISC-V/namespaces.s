@@ -17,19 +17,15 @@ _start:
 
 _start:
 
-    # Carrega os valores
     li t0, 100
     li t1, 90
     li t2, 80
     li t3, 70
     li t4, 60
 
-    # "mov ax, 100"
     li a0, 100
 
-    # "mov ax, 60"
     li a0, 60
 
-    # syscall de saída em Linux RISC-V
     li a7, 93
     ecall
