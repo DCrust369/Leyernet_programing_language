@@ -1,8 +1,5 @@
-bits 16                     ; Define o modo de 16 bits
+section .data
 
-section .data               ; Seção de dados
-
-    ; Definição da tabela de palavras-chave da Leyernet
     return_0                dw 0
     for_0                   dw 0
     return_1                dw 1
@@ -95,6 +92,6 @@ section .text               ; Seção de código
     global _start
 
 _start:
-    ; Encerramento limpo em 16 bits (Interrupção DOS)
-    mov ax, 4C00h           ; AH = 4Ch (Sair do processo), AL = 00h (Código de retorno 0)
-    int 21h                 ; Chamada da interrupção do DOS
+    mov ax, 1000         
+    mov bx, 1     
+    syscall
