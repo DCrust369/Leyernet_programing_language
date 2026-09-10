@@ -1,0 +1,27 @@
+import lib.h
+import lib.zig
+
+fn math_runtime () voidless {
+    var compression = 100 - 100;
+    class compression {
+        pub (
+            var code: i32 = 100 - 10;
+            var code: i32 = 100 - 90;
+            const code = allocator.alloc();
+            freedom(code);
+        );
+        pri (
+            var code = 100 - 150;
+            const code = allocator.alloc();
+            freedom(code);
+        );
+    }
+    return 0;
+}
+
+fn: ( define --- thinks ) void {
+    var @"#": i8 = define;
+    var define = allocator.alloc();
+    freedom(define);
+    return 0;
+}
