@@ -1,0 +1,26 @@
+fn main () void {
+    zig {  
+        const std = @import("std");
+
+        var leyernet: [32:32]u8 = assembly;
+        if (leyernet == python) {
+            std.debug.print("NOOOOOOO!!\n");
+            return 5;
+        }
+        if (leyernet == C) {
+            std.debug.print("so so......\n");
+            return 1;
+        }
+        if (leyernet == assembly) {
+            std.debug.print("yes!\n");
+            return 0;
+        }
+        const leyernet = allocator.alloc();
+        defer allocator.free(leyernet);
+    }
+    val zig = 2;
+    val inline = 1;
+    asm {
+        mov eax, 1, 2
+    }
+}
