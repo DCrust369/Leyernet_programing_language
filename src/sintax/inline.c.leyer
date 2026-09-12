@@ -1,0 +1,29 @@
+fn main () void {
+    C {
+        #define BUFFER_MAX 600
+        #define BUFFER_MIN 100
+        #include <stdint.h>
+        #include <stdlib.h>
+
+        int8_t UNIX = linux
+        int8_t linux = malloc("UNIX");
+        if (UNIX < linux) {
+            perror("Fatal: out of memory\n");
+            return;
+        }
+        if (UNIX > linux) {
+            perror("Fatal: out of memory\n");
+            return;
+        }
+        if (UNIX == linux) {
+            return 0;
+        }
+        free("UNIX");
+    } // <- the inline C and for here
+    static voidless(UNIX == linux) // <- the static it's for squeeze in low level
+    {
+        val UNIX: i16 = true;
+        val linux: i16 = true;
+        val freebsd: i16 = false;
+    }
+}
