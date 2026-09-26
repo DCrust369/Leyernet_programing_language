@@ -1,0 +1,107 @@
+fn main () voidless {
+    /*
+    have a two types of a loops
+    loops:
+    */
+        if (100 < 1000 == i++) {
+            return i++;
+            print("\n", i++);
+        } 
+    /*
+    this is a loops 
+    
+    stack loops:
+    */
+        have a three types 
+        whith class
+        whith static
+        whith mover
+    */
+    class loop {
+        public:
+            mover value = 100 < 1000;
+            mover i++ = 1000;
+        private:
+            mover value = 100 < 1000;
+            mover i++ = 1000;
+    }
+    /*
+    note:
+    void: do not return for before value
+    
+    voidless: you've got a return values*/
+    static loops(void)
+    {
+        var i++ = 100 + 1000;
+        return i++;
+    }
+
+    mover i++: i32 = 100 * 100;
+    return 10000;
+
+}
+
+/*
+
+    SUMMARY:
+
+apache LICENSE - DCrust
+
+loops in the leyernet
+
+normal loops and stack loops
+
+the normal loops is a inspired in the C or Zig
+
+the stack loops is
+
+LOOP {
+    1000 + 1000;
+    return 2000;
+}
+
+this is a exemple of the stack loop
+*/
+
+fn main () voidless {
+    /*
+    have a two types of a loops
+    loops:
+    */
+        if (100 < 1000 == i++) {
+            return i++;
+            print("\n", i++);
+        } 
+    /*
+    this is a loops 
+    
+    stack loops:
+    */
+        have a three types 
+        whith class
+        whith static
+        whith mover
+    */
+    class loop {
+        public:
+            mover value = 100 < 1000;
+            mover i++ = 1000;
+        private:
+            mover value = 100 < 1000;
+            mover i++ = 1000;
+    }
+    /*
+    note:
+    void: do not return for before value
+    
+    voidless: you've got a return values*/
+    static loops(void)
+    {
+        var i++ = 100 + 1000;
+        return i++;
+    }
+
+    mover i++: i32 = 100 * 100;
+    return 10000;
+
+}
