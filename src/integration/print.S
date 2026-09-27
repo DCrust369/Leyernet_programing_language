@@ -29,5 +29,5 @@ main:
     ret
 
 #else
-#error "Arquitetura nao suportada!"
+#error "Architecture whithout support!"
 #endif
