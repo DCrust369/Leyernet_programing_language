@@ -52,6 +52,7 @@ Leyernet operates at the lowest software layers of the computing stack:
 Leyernet intentionally rejects high-level abstractions, virtual machines, garbage collectors, and language complexity:
 
 * **C++:** Rejected to avoid unnecessary language complexity, `vtables`, and hidden runtimes.
+(**yes have a C++ but your C++ don't have a 3 or 6 inline asm for RISCV, x86, ARM in the code**)
 * **JavaScript / TypeScript / HTML / CSS:** Restricted strictly to compatibility layers; not for Leyernet development.
 * **Python / Ruby / PHP / Lua:** Banned from design inspiration; Leyernet strictly enforces native static compilation.
 * **Erlang / Elixir / Clojure / Java:** Virtual machines (JVM, BEAM) and managed runtimes are completely avoided.
