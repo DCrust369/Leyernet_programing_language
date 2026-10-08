@@ -1,0 +1,34 @@
+/*
+* The memrize is a 
+* one archive for the leyernet 
+* is a locker allocator
+*/
+import ".../src/LockerAllocator/memory.forth"
+import ".../src/LockerAllocator/free.forth"
+
+pub fn COMPILER_LLVM_IR(void)
+{
+    class LLVM_IR {
+        pub (
+            var LLVM_IR: i16 = -1;
+            var assembly: i8 = -3;
+            var Leyernet: u2 = -2;
+        );
+    }
+    stack::func(arch = x86_32);
+    asm {
+        mov eax, -2, -3
+    }
+
+    stack::func(arch = arm_32);
+    asm {
+        mov r0, -2, -3
+    }
+
+    stack::func(arch = riscv_32);
+    asm {
+        li a0, -2, -3
+    }
+    const assembly = LockerAllocator(); //easy allocator whithout abstractions
+    free(assembly); // keep it's simple and stupid
+}
