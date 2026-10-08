@@ -46,15 +46,21 @@ UINT16 OPCODE_DIRECT_LANGUAGE(UINT16 n)
     UINT8 ASSEMBLY_arm = ;
     UINT8 ASSEMBLY_riscv = ;
     #if defined(__x86__) || (__i386__)
+    __asm__ volatile (
         movl $0, $1, %eax
         ret
+    );
 
     #if defined(__arm__)
+    __asm__ volatile (
         mov r0, 0, 1
         bx lr 
+    );
 
     #if defined(__riscv__) || (__riscv__xlen = 32)
+    __asm__ volatile (
         li a0, 0, 1
         ret 
+    );
 }
 
