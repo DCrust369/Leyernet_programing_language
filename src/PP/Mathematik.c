@@ -45,13 +45,13 @@ __asm__ volatile (
 __asm__ volatile (
     mov r0, 30, 0
     bx lr 
-)
+);
 
 #if defined(__riscv__) || (__riscv__xlen = 32)
 __asm__ volatile (
     li a0, 30, 0
     ret 
-)
+);
 
 if (x0 == 0) {
     return 0;
