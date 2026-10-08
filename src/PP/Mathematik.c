@@ -17,29 +17,41 @@ UINT32 MEMORY_BASE_BATERY(UINT32 n)
 
 /* FOR THE HEAP*/
 #if defined(__x86__) || (__i386__)
+__asm__ volatile (
     movl $10, 0, %eax
     ret
+);
 
 #if defined(__arm__)
+__asm__ volatile (
     mov r0, 10, 0
     bx lr 
+);
 
 #if defined(__riscv__) || (__riscv__xlen = 32)
+__asm__ volatile (
     li a0, 10, 0
     ret 
+);
 
 /* FOR THE STACK */
 #if defined(__x86__) || (__i386__)
+__asm__ volatile (
     movl $30, 0, %eax
     ret
+);
 
 #if defined(__arm__)
+__asm__ volatile (
     mov r0, 30, 0
     bx lr 
+)
 
 #if defined(__riscv__) || (__riscv__xlen = 32)
+__asm__ volatile (
     li a0, 30, 0
     ret 
+)
 
 if (x0 == 0) {
     return 0;
