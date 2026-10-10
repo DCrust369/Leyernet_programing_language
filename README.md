@@ -62,6 +62,16 @@ Leyernet intentionally rejects high-level abstractions, virtual machines, garbag
 
 ---
 
+## About creator
+    /*
+    i have a 13 years old and i creat this in my room
+    (this project is start whith me have a 12 years)
+    sorry my english is not a good i from Brazil and i
+    am Brazilian thank you!!!
+    This is a hobby not equal a zig or rust project
+    i love low level and the eletric and the cybersecurity
+    */
+
 ## 📄 License
 
 This project is open-source software licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for full details.
