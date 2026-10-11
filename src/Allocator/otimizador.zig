@@ -15,7 +15,7 @@ pub fn optimizator(a: i16, b: i16) void {
                 return 0;
             },
 
-            aarch32 => {
+            .aarch32 => {
                 asm volatile ("sub, %[heap], %[8], %%r0");
                 return 0;
             },
