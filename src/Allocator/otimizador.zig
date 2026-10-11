@@ -3,10 +3,6 @@ const builtin = @import("builtin");
 
 pub fn optimizator(a: i16, b: i16) void {
     var heap: i16 = 10;
-    const heap: i16 = struct {
-        compile: i16,
-        binary: i16,
-    };
     comptime {
         switch (builtin.target.cpu.arch) {
             .x86_32 => {
