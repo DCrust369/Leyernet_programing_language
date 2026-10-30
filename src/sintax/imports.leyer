@@ -1,0 +1,52 @@
+const import = ".../Leyernet/";
+const import0 = ".../src/sintax/namespaces.leyer/";
+const import1 = ".../src/sintax/class.s";
+const import2 = ".../src/sintax/classRISCV.s";
+const import3 = ".../src/sintax/classRISCV.s";
+
+pub fn importing() {
+    var file = 10;
+    var *import = &file;
+
+    /*
+    * The &file
+    * is the import
+    * if you 
+    * writed your code
+    * whith import 
+    * you don't import one lib 
+    * you import one file or the project
+    */
+
+    /*
+    * Checking if the file exist
+    */
+    var one = true;
+    var zero = false;
+
+    if (file < one) {
+        print("error");
+        return 1;
+    } else {
+        print("error");
+        return 1;
+    }
+
+    if (file < zero) {
+        print("error);
+        return 1;
+    } else {
+        print("error");
+        return 1;
+    }
+
+    if (file == one) {
+        print("OK");
+        return 0;
+    }
+    
+    /*
+    * ok this is a checking if the file
+    * exist.
+    */
+}
