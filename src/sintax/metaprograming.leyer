@@ -1,0 +1,26 @@
+/*
+* No need imports
+*/
+
+// whithout fn
+meta name {
+    var system;
+};
+
+virtual {
+    var kernel;
+};
+
+// whith fn
+fn main() void {
+    virtual {
+        var smm
+    };
+
+    meta {
+        var intelme;
+    };
+    /*
+    * my primary code whithout class!!!!
+    */
+}

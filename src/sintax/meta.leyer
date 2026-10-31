@@ -1,0 +1,26 @@
+/*
+*               --metaprograming--  
+*  inspired in the zig language (but not "#"in C)
+*  
+*               DCrust 31/10/2026
+*/
+import Mathematik.c 
+import Matemática.c
+
+pub fn metaprograming() void {
+    var virtual = 40;
+    var virt = 10;
+    var *virt = &virtual;
+    
+    /*
+    * WARNING
+    * in my language you can use whiout class and namespcas
+    * but i use because this is a test of the sintax ok.
+    */
+    var a = 15;
+    var b = 30;
+    class meta {
+        pri:
+            var &virtual = a + b;
+    };
+}

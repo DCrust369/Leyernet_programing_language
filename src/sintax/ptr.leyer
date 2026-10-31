@@ -1,0 +1,32 @@
+/*
+* pointers in the leyernet 
+* programing language
+* created by DCrust in the 31/10/2026
+* 
+* this code make (librarys, pointer, memory managenament and string)
+*/
+import bit_g.cpp
+import lib.c
+
+fn main() voidless {
+    var ptr = 10;
+    var sys = 20;
+    
+    var *ptr: i8 = &sys;
+    class string_acess {
+        pub (
+            var str = 1;
+        );
+        pri (
+            var sta = 0;
+        );
+    };
+    var str: i32 = ("Alloc", "the", "memory");
+    print("", str);
+    
+    var &sys = Allocator.alloc(30, u8);
+    const &sys: u16 = struct {
+        kern: u32, // syscall in leyernet is native
+    }
+    freedom(sys);
+}
