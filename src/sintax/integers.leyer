@@ -1,0 +1,10 @@
+/*
+Test the new keyword
+the int 
+*/
+
+fn main() void {
+    int number: u32 = 10;
+    int number = allocator.alloc();
+    freedom(number);
+}
