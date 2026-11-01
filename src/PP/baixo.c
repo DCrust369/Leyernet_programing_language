@@ -50,17 +50,20 @@ UINT16 OPCODE_DIRECT_LANGUAGE(UINT16 n)
         movl $0, $1, %eax
         ret
     );
+    #endif
 
     #if defined(__arm__)
     __asm__ volatile (
         mov r0, 0, 1
         bx lr 
     );
+    #endif
 
     #if defined(__riscv__) || (__riscv__xlen = 32)
     __asm__ volatile (
         li a0, 0, 1
         ret 
     );
+    #endif
 }
 
