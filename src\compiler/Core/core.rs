@@ -38,6 +38,7 @@ enum rooting_lang {
     yes(MinRoot, f8),
     no(MinRoot, f8),
     medium(A, f16),
+    int(MaxRoot, f8),
 
 }
 
